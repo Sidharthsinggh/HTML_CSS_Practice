@@ -1,0 +1,85 @@
+body{
+    background-color: #08a4a9;
+}
+.container{
+    margin-top: 20px;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+.message{
+    width: 350px;
+}
+
+.container h2{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 130px;
+    padding-top: 50px;
+    
+}
+.fname,.Email,.subject,.message{
+    width: 350px;
+    margin-bottom: 0;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.048);
+    margin-top: 5px;
+}
+button{
+    background-color: #11857b;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-inline:35px;
+    margin-left: 130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: none;
+}
+@media only screen and (max-width:600px){
+    .container{
+        width: 85%;
+        padding-left: 30px !important;
+        margin-top: 30px;
+    }
+    button{
+        margin-left: 90px;
+    }
+    .container h2{
+        margin-right: 30px;
+    }
+    .fname, .Email, .subject, .message{
+        width: 250px;
+    }
+}
+@media (min-width:768px) and (max-width:1200px){
+    .container{
+        width: 85%;
+        padding-left: 30px;
+        padding-bottom: 50px;
+        margin-top: 200px;
+    }
+    .container h2{
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    .main{
+        margin-left: 120px;
+    }
+    
+}
