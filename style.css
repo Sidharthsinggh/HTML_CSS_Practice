@@ -40,6 +40,7 @@
 }
 .section-2{
     background-color: black;
+    padding-bottom: 50px;
 }
 .section-2-content{
     display: flex;
@@ -57,10 +58,11 @@
     color: white;
     font-size: 30px;
     font-family: Roboto,sans-serif;
+    margin-bottom: 35px;
 }
 .section-2-content-box-3 p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Roboto,sans-serif;
 }
 .section-2-content-box-2 {
@@ -74,11 +76,12 @@
 }
 .section-2-content-box-3 {
     position: absolute;
-    right: 165px;
+    right: 225px;
     top: 0;
 }
 .section-3{
     background-color: black;
+    padding-top: 50px;
 }
 .section-3-content{
     display: flex;
@@ -105,8 +108,8 @@
     color: white;
 }
 .section-3-content-box-3 img{
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
 }
 .section-3-content-box-1 h1{
     width: 275px;
@@ -137,6 +140,7 @@
     color: white;
     font-family: Roboto,sans-serif;
     text-align: end;
+    margin-bottom: 60px
 }
 .section-3-content-right-image p{
     font-size: 18px;
@@ -146,7 +150,7 @@
 }
 .section-4{
     background-color: black;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .section-4-content{
@@ -166,9 +170,11 @@
     font-family: Roboto,sans-serif;
     width: 50%;
     color: white;
+    padding-top: 105px;
+    padding-left: 20px;
 }
 .section-4-content-right-box-1 h3{
-    font-size: 25px;
+    font-size: 30px;
     font-family: Roboto,sans-serif;
     text-align: end;
     color: white;
@@ -181,20 +187,22 @@
     color: white;
 }
 .section-4-content-right-box-3 {
-    margin-left: 305px;
+    margin-left: 275px;
 }
 .section-4-content-right-box-2 {
     width: 45%;
     height: 34%;
 }
 .section-4-content-left img{
-    width: 450px;
-    height: 500px;
+    width: 445px;
+    height: 425px;
 }
 .section-4-content-left h2{
-    font-size: 25px;
     font-family: Roboto,sans-serif;
     color: white;
+    font-size: 35px;
+    width: 33%;
+    padding-top: 5px;
 }
 .section-4-content-left h5{
     font-size: 18px;
@@ -202,17 +210,18 @@
     color: white;
 }
 .section-4-content-right-box-1 img{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
     background-position: center;
     background-size: cover;
+    margin-top: -20px;
 }
 .section-4-content-right-box-3 img{
-    width: 300px;
+    width: 270px;
     height: 200px;
 }
 .section-4-content-right-box-3 h2{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-family: Roboto,sans-serif;
     margin-left: -170px;
@@ -225,8 +234,8 @@
 }
 .section-5{
     background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 65px;
+    padding-bottom: 100px;
 }
 .section-5-content{
     display: flex;
@@ -244,6 +253,7 @@
     font-size: 30px;
     font-family: Roboto,sans-serif;
     color: white;
+    margin-bottom: 40px;
 }
 .section-5-content-2 img{
     width: 400px;
@@ -262,7 +272,7 @@
     color: white;
 }
 .section-5-right p{
-    font-size: 18px;
+    font-size: 15px;
     font-family: Roboto,sans-serif;
     color: white;
     font-style: italic;
@@ -275,7 +285,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 .section-5-content-3-box-1{
     display: flex;
@@ -299,11 +309,13 @@ div.section-6-content{
     font-size: 35px;
     color: white;
     font-family: Roboto,sans-serif;
+    padding-bottom: 35px;
 }
 .section-6-content-text p{
     font-size: 23px;
     color: white;
     font-family: Roboto,sans-serif;
+    margin-bottom: 0;
 }
 .section-6-content-text h4{
     font-size: 20px;
@@ -316,11 +328,11 @@ div.section-6-content{
     padding: 12px;
     background-color: black;
     color: white;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 .section-7{
     background-color: black;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 50px;
 }
 .section-7-content{
@@ -343,12 +355,12 @@ div.section-6-content{
 }
 .section-7-content-left h1{
     color: white;
-    font-size: 45px;
-    margin-bottom: 120px;
+    font-size: 52px;
+    margin-bottom: 250px;
     font-family: Roboto,sans-serif;
 }
 .section-7-content-left p{
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-family: Roboto,sans-serif;
 }
@@ -362,3 +374,392 @@ div.section-6-content{
     color: white;
     font-family: Roboto,sans-serif;
 }
+.section-7-content-right-box-1 {
+    padding-bottom: 55px;
+}
+@media only screen and (max-width:600px){
+    .section-1-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-1-content-left {
+        width: 290px;
+        height: 290px;
+        margin-left: 30px;
+    }
+    .section-1-content-left h3 {
+        font-family: Roboto,sans-serif;
+        font-size: 18px;
+    }
+    .section-1-content-left h2 {
+        font-size: 35px;
+    }
+    .section-1-content-left h5 {
+        font-size: 15px;
+    }
+    .section-1-content-right img {
+        width: 260px;
+        height: 290px;
+        margin-left: 51px;
+        margin-top: 90px;
+    }    
+    .section-2-content-box-1 h1 {
+        font-size: 5rem;
+    }
+    .section-2-content-box-2 {
+        margin-top: 12px;
+    }
+    .section-2-content-box-2 h2 {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .section-2 {
+        padding-top: 50px;
+    }
+    .section-2-content-box-3 p {
+        font-size: 15px;
+        width: 330%;
+        margin-top: -52px;
+    }
+    .section-2-content {
+        padding-bottom: 50px; 
+    }
+    .section-3-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .section-3-content-box-3 img {
+        width: 120px;
+        height: 110px;
+    }
+    .section-3-content-box-2 h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .section-3-content-box-3 p {
+        margin-left: 0;
+    }
+    .section-3-content-right-image img {
+        height: 250px;
+        width: 230px;
+        margin-left: 73px;
+    }
+    .section-3-content-box-2 img {
+        width: 220px;
+        height: 180px;
+        margin-left: 85px;
+    }
+    .section-3-content-box-3 {
+        padding-left: 85px;
+    }
+    .section-3-content-right-image p {
+        font-size: 13px;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .section-3-content-right-image h2 {
+        font-size: 23px;
+        margin-bottom: 40px;
+        margin-left: 83px;
+        text-align: center;
+    }
+    .section-3-content-box-3 p {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .section-3-content-box-3 h2 {
+        font-size: 25px;
+    }
+    .section-3-content-box-1 h1 {
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 40px;
+        text-align: end;
+    }
+    .section-4-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-4-content-left img {
+        width: 245px;
+        height: 260px;
+        padding-left: 57px;
+    }
+    .section-4-content-right-box-3 {
+        margin-left: 140px;
+    }
+    .section-4-content-right-box-3 h2 {
+        margin-left: -135px;
+        font-size: 25px;
+    } 
+    .section-3-content {
+        width: 100%;
+    }
+    .section-4-content-left h2 {
+        font-size: 25px;
+        width: 75%;
+        margin-left: 50px;
+    }
+    .section-4-content-left h5 {
+        margin-left: 50px;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .section-4 {
+        padding-top: 20px;
+    }
+    .section-4-content-right-box-1 img {
+        width: 251px;
+        margin-top: 0px;
+    }    
+    .section-4-content-right-box-1 h3 {
+        font-size: 25px;
+    }
+    .section-4-content-right-box-1 h4 {
+        font-size: 15px;
+    }
+    .section-4-content-right-box-2 h1 {
+        font-size: 45px;
+        width: 92%;
+        padding-top: 0px;
+    }
+    .section-4-content-right-box-3 img {
+        width: 142px;
+        height: 125px;
+    }
+    .section-4-content-right-box-2 {
+        width: 60%;
+        height: 34%;
+    }
+    .section-4-content-right-box-3 h3 {
+        font-size: 16px;
+        margin-left: -110px;
+    }
+    .section-5-content-2 img {
+        width: 250px;
+        height: 250px;
+    }
+    .section-5-content-1 h1 {
+        font-size: 30px;
+        width: 75%;
+        margin: auto;
+    }
+    .section-5-content-1 h2 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .section-5-content-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-5-left svg {
+        width: 40px;
+    }
+    .section-5-right h2 {
+        font-size: 18px;
+    }
+    .section-5-right p {
+        font-size: 12px;
+    }
+    .section-6-content-text {
+        display: flex;
+        flex-direction: column;
+        width: 89%;
+        padding-left: 36px;
+        padding-top: 38px;
+    }
+    .section-6-content-text h1 {
+        font-size: 25px;
+    }
+    .section-6-content-text h4 {
+        font-size: 15px;
+    }
+    .section-6-content-text button {
+        font-size: 16px;
+        width: 40%;
+        padding: 10px;
+    }
+    .section-6-content-text p {
+        font-size: 21px;
+        width: 80%;
+    }
+    .section7-content {
+        width: 70%;
+        flex-direction: column;
+    }
+    .section-7-content-left h1 {
+        font-size: 39px;
+    }
+    .section-7-content-left h1 {
+        font-size: 32px;
+        margin-bottom: 144px;
+        font-family: Roboto,sans-serif;
+    }
+    .section-7-content-left p {
+        padding-bottom: 25px;
+        font-size: 15px;
+    }
+    .section-7-content-right > div h2 {
+        font-size: 25px;
+    }
+    .section-7-content-right > div h4 {
+        font-size: 13px;
+    }
+    div.section-6-content {
+        height: 555px;
+    }    
+}
+@media only screen and (min-width:700px) and (max-width:1200px){
+    .section-1-content-right img {
+        width: 320px;
+        height: 425px;
+        margin-left: 55px;
+        margin-right: 40px;
+    }
+    .section-1-content-left h3 {
+        font-size: 21px;
+    }
+    .section-1-content-left h2 {
+        font-size: 45px;
+        width: 70%;
+        font-size: 45px;
+        margin: auto;
+        margin-bottom: 0;
+        margin-top: 12px;
+    }
+    .section-1-content-left h3 {
+        font-size: 21px;
+        width: 56%;
+        margin: auto;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .section-1-content-left {
+        width: 392px;
+        height: 329px;
+        margin-left: 20px;
+    }
+    .section-2-content-box-2 {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -320px;
+    }
+    .section-2-content-box-1 h1 {
+        font-size: 10rem;
+        padding-left: 165px;
+    }
+    .section-2-content-box-3 p {
+        font-size: 16px;
+        width: 332%;
+    }
+    .section-2-content-box-2 h2 {
+        font-size: 26px;
+        text-align: end;
+    }
+    .section-3-content-box-2 img {
+        width: 180px;
+        height: 140px;
+    }
+    .section-3-content-right-image img {
+        width: 270px;
+    }
+    .section-3-content-box-1 h1 {
+        width: 150px;
+        font-size: 3em;
+        margin-top: 170px;
+    }
+    .section-3-content {
+        width: 90%;
+    }
+    .section-3-content-right {
+        padding-top: 95px;
+    }
+    .section-3-content-box-3 p {
+        font-size: 12px;
+        margin-left: 145px;
+    }
+    .section-3-content-box-3 img {
+        width: 170px;
+        height: 170px;
+    }
+    .section-4-content {
+        width: 90%;
+    }
+    .section-4-content-left img {
+        width: 260px;
+        height: 350px;
+    }
+    .section-4-content-right-box-3 img {
+        width: 140px;
+        height: 145px;
+    }
+    .section-4-content-right-box-1 img {
+        width: 180px;
+        height: 175px;
+    }
+    .section-4-content-right {
+        margin-left: 35px;
+    }
+    .section-4-content-right-box-2 h1 {
+        padding-top: 0;
+    }
+    .section-4-content-right-box-3 {
+        margin-left: 242px;
+    }
+    .section-4-content-left h2 {
+        font-family: Roboto,sans-serif;
+        color: white;
+        font-size: 35px;
+        width: 90%;
+    }
+    .section-5-content-2 img {
+        width: 360px;
+        height: 360px;
+    }
+    .section-5-right p {
+        font-size: 12px;
+    }
+    .section-5-right h2 {
+        font-size: 16px;
+    }
+    .section-5-content-3 {
+        width: 93%;
+    }    
+    .section-6-content-text {
+        padding-left: 20px;
+        width: 60%;
+    }
+    .section-6-content-text p {
+        font-size: 21px;
+    }
+    div.section-6-content {
+        height: 550px;
+    }
+    .section-6-content-text h1 {
+        font-size: 30px;
+    }
+    .section7-content {
+        width: 85%;
+    }
+    .section-7-content-left p {
+        font-size: 17px;
+        width: 93%;
+    }
+    .section-7-content-left h1 {
+        margin-bottom: 215px;
+    }
+    .section-7-content-left h1 {
+        font-size: 40px;
+    }
+    .section-7-content-right > div h2 {
+        font-size: 32px;
+    }
+    .section-7-content-right > div h4 {
+        font-size: 18px;
+    }
+}
+
+
+
