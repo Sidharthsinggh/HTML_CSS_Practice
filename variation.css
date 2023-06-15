@@ -1,0 +1,95 @@
+.egbutton a{
+    padding: 13px;
+    margin: 15px;
+    background-color: #496db6;
+    color: white;
+    width: 112%;
+    display: block;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 0;
+    font-weight: 700;
+}
+.egbutton{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    width: 85%;
+}
+.egbuttons {
+    margin: 20px;
+    margin-top: 27px;
+    margin-left: 15px;
+}
+.w-full.md\:w-10\/12.mx-auto.px-4.sm\:px-10.md\:px-0.sm\:max-w-md {
+    max-width: 45%;
+}
+#simple-content-block_section_7A4R1K7dKVyVWyVoTHd5Iu > div > div > div {
+    overflow:unset; 
+}
+div#simple-content-block_div_content_richtext {
+    margin-right: 70px;
+    width: 89%;
+}
+#simple-content-block_anchor_dynamic-href{
+    display: none;
+}
+.egbuttons {
+    margin: 15px;
+}
+@media only screen and (max-width:600px){
+    .egbutton {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+    #simple-content-block_section_7A4R1K7dKVyVWyVoTHd5Iu > div > div {
+        justify-content: center;
+        width: 100%;
+    }
+    .w-full.md\:w-10\/12.mx-auto.px-4.sm\:px-10.md\:px-0.sm\:max-w-md {
+        max-width: 93%;
+        margin-right: 50px;
+    }
+    .egbutton a {
+        padding: 16px;
+        margin: 15px;
+        background-color: #496db6;
+        color: white;
+        width: 36% !important;
+        font-size: 15px;
+        border-radius: 4px;
+        margin-left: 139px;
+        font-weight: 700;
+        padding-inline: 23px;
+        margin-bottom: 0;
+    }
+    .egbuttons {
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:1200px){
+    .egbutton {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    .egbutton a {
+        margin-left: 12px;
+    }
+    .egbuttons {
+        width: 150px;
+    }
+    .egbutton a {
+        padding: 16px;
+        margin: 15px;
+        padding-inline: 13px;
+    }
+    #simple-content-block_section_7A4R1K7dKVyVWyVoTHd5Iu > div >div  > div > div{
+        margin-bottom: 0;
+    }
+}
+
+
+
